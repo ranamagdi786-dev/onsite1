@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url(headerbg.png);
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+.main-nav{
+    background-color: black;
+    height: 70px;
+    padding: 20px 0px;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    margin-top: 10px;
+}
+.nav ul li{
+    display: inline;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    bottom: 5px;
+}
+.nav ul li a:hover{
+    color: cadetblue;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+.header{
+    text-align: center;
+}
+.header h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+}
+.header hr{
+    width: 50%;
+    border: solid mediumvioletred 1px;
+    margin: 20px auto;
+}
+.header p{
+    font-size: 15px;
+    margin: 25px 25%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.call a{
+    border: solid 1px mediumvioletred;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.call a:hover{
+    color: cadetblue;
+}
+.center{
+    position: relative;
+    top: 110px;
+}
+.design{
+    text-align: center;
+    padding: 20px 0;
+}
+.design hr{
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.design p{
+    font-size: 18px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.icons{
+padding: 50px 0px;
+}
+.row{
+width: 90%;
+margin: auto;
+}
+.icon{
+float: left;
+width: 30%;
+margin-right: 30px;
+text-align: center;
+
+}
+.icon i{
+background-color: #61c2f7;
+padding: 22px;
+color: white;
+font-size: 36px;
+margin-bottom: 15px;
+}
+.icon h3{
+font-family: Arial;
+letter-spacing: 1px;
+color: black;
+}
+.icon p{
+font-size: 18px;
+color: #828282;
+line-height: 1.5;
+font-family: Arial, Helvetica, sans-serif;
+}
+.gallery{
+padding: 50px 0px;
+}
+
+.info{
+text-align: center;
+}
+.info h2{
+font-size: 30px;
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+color: black;
+position: relative;
+top: 15px;
+}
+.info p{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+color: #828282;
+margin-bottom: 25px;
+position: relative;
+top: 10px;
+}
+.x-row{
+width: 100%;
+}
+.x-row .item{
+width: 31%;
+margin: 1%;
+float: left;
+}
+.x-row .item img{
+width: 100%;
+}
+.x-row .item{
+width: 31%;
+margin: 1%;
+float: left;
+position: relative;
+}
+.contact{
+background-image:url(contactbg.png);
+background-size: cover;
+height: 600px;
+padding: 50px 0;
+position: relative;
+top: 620px;
+}
+.contact-overlay {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+background-color: rgba(45, 57, 80,.8);
+}
+
+.contact-info {
+text-align: center;
+margin-top: 100px;
+}
+
+.contact-info h2 {
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: white;
+}
+
+.contact-info p {
+color: #828281;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 40px;
+}
+.contact-form {
+width: 600px;
+text-align: center;
+margin: 20px auto;
+}
+.contact-form input[type=text],input[type=email], textarea {
+width: 600px;
+padding: 15px;
+margin-bottom: 15px;
+background: transparent;
+display: block;
+}
+span {
+background: transparent;
+padding: 10px 30px;
+color: white;
+font-size: 16px;
+margin-left: 40px;
+color: white;
+float: left;
+}
+input[type=checkbox]{
+margin-right: 20px;
+}
+input[type=submit]{
+background: transparent;
+padding: 10px 30px;
+color: white;
+font-size: 16px;
+border: solid 1px #61c2f7;
+}
+.footer{
+padding: 25px;
+background-color: #eee;
+text-align: right;
+}
+.footer a{
+text-decoration: none;
+font-size: 36px;
+margin: 5px;
+color: #61c2f7;
+}
